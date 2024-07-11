@@ -1,0 +1,169 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.header__authorization {
+    background-color: var(--page-background-color);
+}
+.list-authorization-links {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+.list-authorization-links__item {
+}
+
+.authorization-link {
+    color: var(--link-color);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (hover: hover) {
+    .authorization-link:hover {
+        opacity: 0.5;
+    }
+}
+
+.menu {
+    background-image: url(../img/background-header1.jpg);
+    background-size: 20%;
+}
+.external-list-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.external-list-links__item {
+}
+.logo {
+    max-width: 200px;
+    display: inline-block;
+}
+.logo__picture {
+}
+.internal-list-links {
+    display: flex;
+    column-gap: 10px;
+}
+.internal-list-links__item {
+}
+.link-page {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    text-decoration: none;
+}
+.link-page__wrapper-picture {
+    max-width: 100px;
+    display: inline-block;
+}
+
+.link-page__picture {
+}
+
+.link-page__wrapper-text {
+    color: var(--link-color);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+@media (hover: hover) {
+    .link-page__wrapper-text:hover {
+        opacity: 0.5;
+    }
+}
+
+/* ===================================main */
+.main {
+    padding: 180px 0;
+}
+.hero {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.hero__content {
+    height: 60vh;
+    background: 
+    linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.4)), 
+    url(../img/minecraft-background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero__description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    color:beige;
+    text-shadow: 3px 3px 3px #000;
+
+}
+
+.hero__title {
+    display: inline;
+    font-family: "Pixelify Sans", sans-serif;
+}
+.hero__text {
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+
+/* ============================footer */
+
+.footer {
+}
+.footer__border {
+	padding: 0;
+	height: 10px;
+	border: none;
+	border-top: 1px solid white;
+	box-shadow: 0 10px 10px -10px #e9e5e5 inset;
+}
+
+.footer__content {
+    padding: 20px 0;
+}
+.outer-links-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.outer-links-list__item {
+}
+.logo {
+}
+.logo__picture {
+}
+.inner-links-list {
+    display: flex;
+    column-gap: 20px;
+}
+.inner-links-list__item {
+}
+.social-link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.social-link__icon {
+    fill: white;
+    transition: 0.2s;
+}
+
+.social-link:hover .social-link__icon {
+    fill: rgba(156, 181, 235, 0.4);
+}
+
+
