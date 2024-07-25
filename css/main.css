@@ -166,4 +166,30 @@
     fill: rgba(156, 181, 235, 0.4);
 }
 
+/* ============================adaptive */
+@media(max-width: 768px) {
+    .link-page__wrapper-picture {
+        max-width: 60px;
+    }
+
+    .link-page {
+        flex-direction: column;
+    }
+
+    .link-page__wrapper-text {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 550px) {
+    .external-list-links {
+        flex-direction: column;
+    }
+
+    .menu {
+        padding: 5px 0;
+    }
+}
+
+
 
