@@ -201,4 +201,14 @@
     .hero__description {
         width: 95%;
     }
+
+    .outer-links-list {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    .footer__content {
+        padding: 10px 0px;
+    }
 }
+
