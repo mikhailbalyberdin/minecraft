@@ -29,3 +29,21 @@ ol, ul, li {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body > * {
+    flex-shrink: 0;
+}
+
+footer {
+    margin-top: auto;
+}

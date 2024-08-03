@@ -120,6 +120,27 @@
     display: inline;
 }
 
+.slider {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.slick-slide {
+    height: 300px;
+    background-color: red;
+}
+
+
 /* ============================footer */
 
 .footer {
@@ -223,3 +244,7 @@
         text-align: center;
     }
 }
+
+
+
+
