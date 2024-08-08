@@ -123,6 +123,7 @@
 .slider {
     max-width: 800px;
     margin: 0 auto;
+    position: relative;
 }
 
 .slick-list {
@@ -140,6 +141,27 @@
     background-color: red;
 }
 
+.slider__arrow {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider__arrow--left {
+    left: -50px;
+}
+.slider__arrow--right {
+    right: -50px;
+}
+
+.slick-dots {
+    display: none;
+}
 
 /* ============================footer */
 
@@ -244,6 +266,7 @@
         text-align: center;
     }
 }
+
 
 
 
