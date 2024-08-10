@@ -151,12 +151,24 @@
     z-index: 1;
     top: 50%;
     transform: translateY(-50%);
+    cursor: pointer;
 }
+
 .slider__arrow--left {
     left: -50px;
 }
+
 .slider__arrow--right {
     right: -50px;
+}
+
+.slider__arrow:hover .arrow-svg-icon {
+    fill: green;
+}
+
+.arrow-svg-icon {
+    fill: white;
+    transition: 0.1s;
 }
 
 .slick-dots {
