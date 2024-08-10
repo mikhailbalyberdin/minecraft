@@ -172,7 +172,28 @@
 }
 
 .slick-dots {
-    display: none;
+    display: flex;
+    column-gap: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.slick-active button {
+    background-color: green;
+    transform: scale(1.5);
+    cursor: default;
 }
 
 /* ============================footer */
