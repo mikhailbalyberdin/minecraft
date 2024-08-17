@@ -138,49 +138,53 @@
 
 .slick-slide {
     height: 300px;
-    text-align: start;
+    text-align: center;
     position: relative;
+}
+
+.slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .slide--building {
     background-image: 
     linear-gradient(rgb(128, 128, 128, 0.2), rgb(255, 255, 255, 0.2)),
     url(../img/minecraft_stroyka.png);
-
 }
 
 .slide--craft {
     background-image: 
     linear-gradient(rgba(14, 13, 13, 0.096), rgb(255, 255, 255, 0.3)),
     url(../img/minecraft_craft.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.slide__text {
-    position:absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 18px;
-    color: rgb(255, 255, 255);
 }
 
 .slide--defense {
     background-image: url(../img/minecraft_zombi.webp);
-    background-size: cover;
 }
 
 .slide--food {
     background-image: url(../img/minecraft_food.webp);
-    background-size: contain;
-    background-position:center;
-    
 }
 
 .slide--cooperation {
     background-image: url(../img/minecraft_friends.jpg);
-    background-size: cover;
+}
+
+.slide__text {
+    width: 100%;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px #000;
+    line-height: 1.7;
 }
 
 .slider__arrow {
