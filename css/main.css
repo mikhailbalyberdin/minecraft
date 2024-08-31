@@ -1,3 +1,17 @@
+.screamer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    display: none;
+}
+
+.screamer.open {
+    display: block;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -289,11 +303,22 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(5px);
+    transition: 1s;
 }
 
 .card-mode__image {
+    display: inline-block;
     width: 100%;
     object-fit: cover;
+    transition: 1s;
+}
+
+.card-mode__description:hover {
+    backdrop-filter: blur(0px);
+}
+
+.card-mode:hover .card-mode__image {
+    transform: scale(1.1);
 }
 
 .card-mode__text {
