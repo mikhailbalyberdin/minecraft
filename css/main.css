@@ -452,6 +452,10 @@
     .slider__arrow {
         display: none !important;
     }
+    .card-mode {
+        width: 290px;
+        height: 300px;
+    }
 }
 
 
