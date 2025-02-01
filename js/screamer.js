@@ -6,7 +6,7 @@ function showScreamer() {
 
     const audioPlayer = new Audio();
     audioPlayer.src = "../audio/screamer_sound.mp3";
-    audioPlayer.volume = 0.2;
+    audioPlayer.volume = 0.9;
     audioPlayer.play();
 }
 
